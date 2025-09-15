@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SenSchool Move — Accueil</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="logo.png" alt="logo" class="logo" />
+        <span class="brand-name">SenSchool Move</span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#services">Nos services</a></li>
+          <li><a href="#why">Pourquoi nous choisir</a></li>
+          <li><a href="#testimonials">Témoignages</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="hamburger" id="hamburger" aria-label="menu">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  
+
+
+
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- HERO FULLSCREEN SLIDER -->
+  <section class="hero">
+    <div class="hero-slider" id="heroSlider">
+      <div class="hero-slide" style="background-image:url('hero-france.jpg')">
+        <div class="hero-overlay">
+          <h1>Réalisez votre rêve d'étudier à l'étranger</h1>
+          <p>Accompagnement complet — Admissions, visas, traductions</p>
+          <button class="btn btn-primary" data-scroll="#services">Voir nos pays</button>
+        </div>
+      </div>
+
+      <div class="hero-slide" style="background-image:url('hero-canada.jpg')">
+        <div class="hero-overlay">
+          <h1>Étudiez au Canada</h1>
+          <p>Conseils & suivi personnalisé</p>
+          <button class="btn btn-primary" data-scroll="#services">Voir nos pays</button>
+        </div>
+      </div>
+
+      <div class="hero-slide" style="background-image:url('hero-usa.jpg')">
+        <div class="hero-overlay">
+          <h1>Programmes aux USA</h1>
+          <p>Community colleges & universités</p>
+          <button class="btn btn-primary" data-scroll="#services">Voir nos pays</button>
+        </div>
+      </div>
+      <!-- Ajoute d'autres slides si tu veux -->
+    </div>
+    <div class="hero-nav">
+      <button id="prevSlide" class="icon-btn">‹</button>
+      <button id="nextSlide" class="icon-btn">›</button>
+    </div>
+  </section>
+
+  <!-- SERVICES (6 pays) -->
+  <section id="services" class="section services container">
+    <h2 class="section-title">Nos Services — Pays</h2>
+  
+
+    <div class="services-grid">
+      <!-- carte pays -->
+      <article class="card">
+        <img src="hero1-france.jpg" alt="France" class="card-img">
+        <div class="card-body">
+          <h3>France</h3>
+          <p>Campus France / Parcoursup — admission universitaire et conseils visa.</p>
+          <div class="card-actions">
+            <a href="france.html" class="btn-primary">Plus de détails</a>
+            <button class="btn btn-choose" data-country="France">Choisir ce pays</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="hero2-canada.jpg" alt="Canada" class="card-img">
+        <div class="card-body">
+          <h3>Canada</h3>
+          <p>Admission & CAQ (Québec) — conseils pour les collèges/universités.</p>
+          <div class="card-actions">
+            <a href="canada.html" class="btn-primary">Plus de détails</a>
+            <button class="btn btn-choose" data-country="Canada">Choisir ce pays</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="hero3-usa.jpg" alt="USA" class="card-img">
+        <div class="card-body">
+          <h3>USA</h3>
+          <p>Community Colleges & universités — dossier I-20 & visa F-1.</p>
+          <div class="card-actions">
+            <a  href="usa.html"class="btn-primary">Plus de détails</a>
+            <button class="btn btn-choose" data-country="USA">Choisir ce pays</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="hero4-russie.jpg" alt="Russie" class="card-img">
+        <div class="card-body">
+          <h3>Russie</h3>
+          <p>Admission directe — coût de la vie abordable et procédures simplifiées.</p>
+          <div class="card-actions">
+            <a  href="russie.html"class="btn-primary">Plus de détails</a>
+            <button class="btn btn-choose" data-country="Russie">Choisir ce pays</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="hero5-turquie.jpg" alt="Turquie" class="card-img">
+        <div class="card-body">
+          <h3>Turquie</h3>
+          <p>Programmes en anglais/turc — bourses et admissions directes.</p>
+          <div class="card-actions">
+            <a href="turquie.html"class="btn-primary" >Plus de détails</a>
+            <button class="btn btn-choose" data-country="Turquie">Choisir ce pays</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="hero6-luxembourg.jpg" alt="luxembourg" class="card-img">
+        <div class="card-body">
+          <h3>Luxembourg</h3>
+          <p>Université locales & écoles privées — proximité et coût maîtrisé.</p>
+          <div class="card-actions">
+            <a href="luxembourg.html" class="btn-primary">Plus de détails</a>
+            <button class="btn btn-choose" data-country="luxembourg">Choisir ce pays</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- WHY (questions clicables / mini-FAQ) -->
+  <section id="why" class="section why container">
+    <h2 class="section-title">Pourquoi nous choisir ?</h2>
+    <div class="qa-grid">
+      <div class="qa-item">
+        <button class="qa-q">Pourquoi passer par notre agence ?</button>
+        <div class="qa-a">Chez SenSchool Move, nous plaçons l’étudiant au cœur de notre mission. Notre expertise, combinée à une parfaite connaissance des procédures d’études à l’étranger, nous permet de proposer un accompagnement personnalisé, transparent et efficace. De la constitution du dossier jusqu’à l’arrivée dans le pays de destination, nous assurons un suivi complet et professionnel, avec une attention particulière à chaque détail. Choisir SenSchool Move, c’est opter pour la fiabilité, la réactivité, et l’engagement à vos côtés pour concrétiser votre projet d’études.</div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-q">Quels services sont inclus ?</button>
+        <div class="qa-a">Orientation, préparation dossier, lettres de motivation, traduction, prise de rendez-vous visa et suivi jusqu'au départ.</div>
+      </div>
+
+      <div class="qa-item">
+        <button class="qa-q">Peut-on payer en plusieurs fois ?</button>
+        <div class="qa-a">Oui, nous proposons des plans de paiement flexibles selon le pays choisi.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials carousel -->
+  <section id="testimonials" class="section testimonials container">
+    <h2 class="section-title">Témoignages</h2>
+
+    <div class="testi-wrap">
+      <div class="testi-slide active">
+        <p class="quote">« Une équipe réactive et à l’écoute. J’ai obtenu mon visa pour le Canada en toute sérénité. Merci SenSchool Move ! »</p>
+        <p class="author">— Mariama D., Montréal</p>
+      </div>
+      <div class="testi-slide">
+        <p class="quote">« Un service rapide, clair, et surtout humain. Je recommande à tous les étudiants qui veulent partir à l’étranger. »</p>
+        <p class="author">— Mamadou S., France</p>
+      </div>
+      <div class="testi-slide">
+        <p class="quote">« Grâce à SenSchool Move, mon rêve d’étudier en France est devenu réalité. Un accompagnement sérieux et professionnel du début à la fin. »</p>
+        <p class="author">— Aissatou K., France</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Section Communauté WhatsApp -->
+<section class="whatsapp-section-fixed">
+  <h2>Rejoignez-nous sur notre communauté WhatsApp</h2>
+  <a href="https://chat.whatsapp.com/TON_ID_DE_GROUPE" target="_blank" class="whatsapp-logo" aria-label="Rejoindre notre WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <p id="typed-text"></p>
+</section>
+
+
+  
+<script>
+const phrases = [
+  "Avec SenSchool Move, avancez vers vos rêves 🌍",
+  "Voyagez, apprenez, grandissez 💡",
+  "Notre communauté vous ouvre des portes ✈️",
+  "Rejoignez-nous et concrétisez vos projets !"
+];
+
+let i = 0;       // index de la phrase
+let j = 0;       // index de la lettre
+let current = "";
+let isDeleting = false;
+const speed = 100;   // vitesse de frappe
+const pause = 2000;  // pause avant effacement
+
+function type() {
+  const target = document.getElementById("typed-text");
+  if (!isDeleting && j < phrases[i].length) {
+    current += phrases[i][j++];
+    target.textContent = current;
+    setTimeout(type, speed);
+  } else if (!isDeleting && j === phrases[i].length) {
+    isDeleting = true;
+    setTimeout(type, pause);
+  } else if (isDeleting && j > 0) {
+    current = current.slice(0, --j);
+    target.textContent = current;
+    setTimeout(type, speed / 2);
+  } else {
+    isDeleting = false;
+    i = (i + 1) % phrases.length;
+    setTimeout(type, speed);
+  }
+}
+type();
+</script>
+
+
+  <!-- FOOTER -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<footer class="footer">
+  <div class="container footer-inner">
+
+    <!-- Bloc gauche : logo / nom / contact -->
+    <div class="footer-brand">
+      <h3>SenSchool Move</h3>
+      <p>Email : <a href="mailto:senschoolmove2025@gmail.com">senschoolmove2025@gmail.com</a></p>
+      <p>Contact : <a href="tel:+221763330719">+221 763330719</a></p>
+    </div>
+
+    <!-- Bloc droite : réseaux sociaux -->
+    <div class="footer-socials">
+      <a href="https://instagram.com/guidevoyage1?igsh=MW5wcHI3d2dmNHZnNA==" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://facebook.com/profile.php?id=61580338392860" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://tiktok.com/@schoolmove315?_t=ZM-8zjh9jA93e4&_r=1" target="_blank" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://chat.whatsapp.com/TON_ID_DE_GROUPE" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 SenSchool Move – Tous droits réservés
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

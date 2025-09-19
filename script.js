@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Numéro WhatsApp (format international, sans + ni espaces)
-const whatsappNumber = '221787547890'; // remplace par ton numéro
+const whatsappNumber = '221763330719'; // remplace par ton numéro
 
 // Fonction unique pour ouvrir WhatsApp
 function openWhatsAppWith(message) {
@@ -120,6 +120,7 @@ document.querySelectorAll('.btn-choose, [data-whatsapp]').forEach(btn => {
   });
 
 });
+
 
 
 
